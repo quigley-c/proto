@@ -1,0 +1,14 @@
+language: python
+python:
+        - "3.5"
+
+before_install:
+        - gem install mdl
+
+install:
+        - pip install --upgrade pip
+        - pip install proselint
+
+script:
+        - proselint README.md
+        - mdl README.md
