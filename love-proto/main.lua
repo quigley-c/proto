@@ -1,4 +1,3 @@
---project named puzzlr, probably due for rename
 --This is defeinitely a project I intend to keep working on in the future
 --Serves as a simple mini-game for now, maybe something bigger later down the line.
 --highly likely needs an overhaul to better utilize love2d physics
