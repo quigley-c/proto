@@ -24,7 +24,7 @@ function love.load()
 	player.gravity = -6500
 	player.max_speed = 10
 	player.ac = 0.25
-	player.decel = 2
+	player.decel = 3
 
 	collectable.x = -16
 	collectable.y = love.graphics.getHeight() / 2 - 70
@@ -130,7 +130,7 @@ function love.update(dt)
 	end
 	--end movement code
 	
-	--collectable code
+	--collectable object code
 	collectable.x = collectable.x + collectable.x_velocity
 	if collectable.x > love.graphics.getHeight() then
 		collectable.x = -16
